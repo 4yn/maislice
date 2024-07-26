@@ -1,0 +1,28 @@
+{
+  "name": "maislice",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "@tauri-apps/api": "^1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "simai.js": "1.0.11"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
